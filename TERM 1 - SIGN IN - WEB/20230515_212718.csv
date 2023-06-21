@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TERM 1 - SIGN IN - WEB,Chrome 113.0.0.0,,,2023-05-15 21:27:20,2023-05-15 21:27:42,21.617s,PASSED
+,,,,,,,
+Test Cases/TERM 1 - SIGN IN - WEB,Chrome 113.0.0.0,,,2023-05-15 21:27:20,2023-05-15 21:27:42,21.452s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-15 21:27:20,2023-05-15 21:27:22,1.915s,PASSED
+"navigateToUrl(""https://staging-belleandkate.netlify.app/"")",Chrome 113.0.0.0,,,2023-05-15 21:27:22,2023-05-15 21:27:23,0.855s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-15 21:27:23,2023-05-15 21:27:23,0.158s,PASSED
+"click(findTestObject(""Object Repository/Page_BELLE  KATE ROOM/Login_icon""))",Chrome 113.0.0.0,,,2023-05-15 21:27:23,2023-05-15 21:27:24,0.940s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/Loign_title""), ""Login"")",Chrome 113.0.0.0,,,2023-05-15 21:27:24,2023-05-15 21:27:25,0.451s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_BELLE  KATE ROOM/img""))",Chrome 113.0.0.0,,,2023-05-15 21:27:25,2023-05-15 21:27:25,0.328s,PASSED
+"setText(findTestObject(""Page_BELLE  KATE ROOM/Login_emailAddress""), """")",Chrome 113.0.0.0,,,2023-05-15 21:27:25,2023-05-15 21:27:26,0.642s,PASSED
+"setEncryptedText(findTestObject(""Page_BELLE  KATE ROOM/Login_password""), """")",Chrome 113.0.0.0,,,2023-05-15 21:27:26,2023-05-15 21:27:26,0.621s,PASSED
+"click(findTestObject(""Page_BELLE  KATE ROOM/Login_button""))",Chrome 113.0.0.0,,,2023-05-15 21:27:26,2023-05-15 21:27:27,0.478s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/span_Email address cant be blank""), ""Email address can't be blank"")",Chrome 113.0.0.0,Blank Email,,2023-05-15 21:27:27,2023-05-15 21:27:27,0.537s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/span_Password cant be blank""), ""Password can't be blank"")",Chrome 113.0.0.0,Blank Password,,2023-05-15 21:27:27,2023-05-15 21:27:28,0.333s,PASSED
+"setText(findTestObject(""Page_BELLE  KATE ROOM/Login_emailAddress""), ""ibnuaviandi@gmail.com"")",Chrome 113.0.0.0,Incorrect Email,,2023-05-15 21:27:28,2023-05-15 21:27:28,0.919s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_BELLE  KATE ROOM/Login_password""), ""YjJqQObLkZe1kqPmj7R3pw=="")",Chrome 113.0.0.0,Correct Password,,2023-05-15 21:27:28,2023-05-15 21:27:29,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_BELLE  KATE ROOM/Login_button""))",Chrome 113.0.0.0,,,2023-05-15 21:27:29,2023-05-15 21:27:30,0.565s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/Alert_message""), ""Invalid login credentials. Please try again."")",Chrome 113.0.0.0,,,2023-05-15 21:27:30,2023-05-15 21:27:30,0.631s,PASSED
+Error_Login = getUrl(),Chrome 113.0.0.0,,,2023-05-15 21:27:30,2023-05-15 21:27:30,0.016s,PASSED
+"verifyMatch(Error_Login, ""https://staging-belleandkate.netlify.app/login"", false)",Chrome 113.0.0.0,,,2023-05-15 21:27:30,2023-05-15 21:27:30,0.018s,PASSED
+"setText(findTestObject(""Page_BELLE  KATE ROOM/Login_emailAddress""), ""ibnu.aviandi@yahoo.com"")",Chrome 113.0.0.0,Correct Email,,2023-05-15 21:27:30,2023-05-15 21:27:31,0.789s,PASSED
+"setEncryptedText(findTestObject(""Page_BELLE  KATE ROOM/Login_password""), ""jcXZBW6JhmhUipiTVRf0/w=="")",Chrome 113.0.0.0,Incorrect Password (Lowercase),,2023-05-15 21:27:31,2023-05-15 21:27:32,0.516s,PASSED
+"click(findTestObject(""Page_BELLE  KATE ROOM/Login_button""))",Chrome 113.0.0.0,,,2023-05-15 21:27:32,2023-05-15 21:27:32,0.457s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/Alert_message""), ""Invalid login credentials. Please try again."")",Chrome 113.0.0.0,,,2023-05-15 21:27:32,2023-05-15 21:27:33,0.867s,PASSED
+Error_Login = getUrl(),Chrome 113.0.0.0,,,2023-05-15 21:27:33,2023-05-15 21:27:33,0.001s,PASSED
+"verifyMatch(Error_Login, ""https://staging-belleandkate.netlify.app/login"", false)",Chrome 113.0.0.0,,,2023-05-15 21:27:33,2023-05-15 21:27:33,0.009s,PASSED
+"setText(findTestObject(""Page_BELLE  KATE ROOM/Login_emailAddress""), ""ibnu.aviandi@yahoo.com"")",Chrome 113.0.0.0,Correct Email,,2023-05-15 21:27:33,2023-05-15 21:27:34,0.712s,PASSED
+"setEncryptedText(findTestObject(""Page_BELLE  KATE ROOM/Login_password""), ""YqqIZy1YAdk="")",Chrome 113.0.0.0,Incorrect Password (less than 8 characters),,2023-05-15 21:27:34,2023-05-15 21:27:34,0.628s,PASSED
+"verifyElementText(findTestObject(""Page_BELLE  KATE ROOM/span_Password must have at least 8 characters""), ""Password must have at least 8 characters"")",Chrome 113.0.0.0,,,2023-05-15 21:27:34,2023-05-15 21:27:35,0.449s,PASSED
+"setEncryptedText(findTestObject(""Page_BELLE  KATE ROOM/Login_password""), ""nG7mAKimZ+tKdK+1F9V+dw=="")",Chrome 113.0.0.0,Correct Password,,2023-05-15 21:27:35,2023-05-15 21:27:35,0.408s,PASSED
+"click(findTestObject(""Object Repository/Page_BELLE  KATE ROOM/Login_button""))",Chrome 113.0.0.0,,,2023-05-15 21:27:35,2023-05-15 21:27:36,0.678s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-15 21:27:36,2023-05-15 21:27:41,5.009s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 21:27:41,2023-05-15 21:27:42,0.660s,PASSED
