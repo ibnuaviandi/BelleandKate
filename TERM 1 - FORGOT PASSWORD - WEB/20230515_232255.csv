@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TERM 1 - FORGOT PASSWORD - WEB,Chrome 113.0.0.0,,,2023-05-15 23:22:56,2023-05-15 23:23:18,21.738s,PASSED
+,,,,,,,
+Test Cases/TERM 1 - FORGOT PASSWORD - WEB,Chrome 113.0.0.0,,,2023-05-15 23:22:57,2023-05-15 23:23:18,21.522s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-15 23:22:57,2023-05-15 23:22:59,2.100s,PASSED
+"navigateToUrl(""https://staging-belleandkate.netlify.app/"")",Chrome 113.0.0.0,,,2023-05-15 23:22:59,2023-05-15 23:23:00,1.415s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-15 23:23:00,2023-05-15 23:23:00,0.165s,PASSED
+"click(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Icon_Login""))",Chrome 113.0.0.0,,,2023-05-15 23:23:00,2023-05-15 23:23:02,1.243s,PASSED
+"click(findTestObject(""TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/span_forgot your password""))",Chrome 113.0.0.0,,,2023-05-15 23:23:02,2023-05-15 23:23:02,0.572s,PASSED
+"verifyElementText(findTestObject(""TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/span_Forgot Password""), ""Forgot Password"")",Chrome 113.0.0.0,,,2023-05-15 23:23:02,2023-05-15 23:23:03,0.528s,PASSED
+"click(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Button_Recover My Password""))",Chrome 113.0.0.0,Blank Email,,2023-05-15 23:23:03,2023-05-15 23:23:03,0.348s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/span_Email address cant be blank""), ""Email address can't be blank"")",Chrome 113.0.0.0,Alert Message,,2023-05-15 23:23:03,2023-05-15 23:23:04,0.433s,PASSED
+"setText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/input__css-11aywtz r-6taxm2""), ""ibnuaviandi"")",Chrome 113.0.0.0,Incorrect Email,,2023-05-15 23:23:04,2023-05-15 23:23:04,0.655s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/span_Invalid email address""), ""Invalid email address"")",Chrome 113.0.0.0,Alert Message,,2023-05-15 23:23:04,2023-05-15 23:23:05,0.405s,PASSED
+"setText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/input__css-11aywtz r-6taxm2""), ""ibnuaviandi@xmail.com"")",Chrome 113.0.0.0,Unregisterd Email,,2023-05-15 23:23:05,2023-05-15 23:23:06,0.893s,PASSED
+"click(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Button_Recover My Password""))",Chrome 113.0.0.0,,,2023-05-15 23:23:06,2023-05-15 23:23:06,0.540s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/div_Unable to find user with email ibnuavia_974610""), ""Unable to find user with email 'ibnuaviandi@xmail.com'."")",Chrome 113.0.0.0,Alert Message,,2023-05-15 23:23:06,2023-05-15 23:23:07,0.849s,PASSED
+"setText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/input__css-11aywtz r-6taxm2""), ""ibnuaviandi@gmail.com"")",Chrome 113.0.0.0,Registered Email,,2023-05-15 23:23:07,2023-05-15 23:23:08,0.672s,PASSED
+"click(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Button_Recover My Password""))",Chrome 113.0.0.0,,,2023-05-15 23:23:08,2023-05-15 23:23:12,4.839s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/div_Email successfully sent""), ""Email successfully sent"")",Chrome 113.0.0.0,"Email has been sent
+",,2023-05-15 23:23:12,2023-05-15 23:23:17,4.573s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/img""))",Chrome 113.0.0.0,,,2023-05-15 23:23:17,2023-05-15 23:23:17,0.347s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 23:23:17,2023-05-15 23:23:18,0.672s,PASSED
