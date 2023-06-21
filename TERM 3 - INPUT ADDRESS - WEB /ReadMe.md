@@ -26,5 +26,6 @@ After click Continue to Shipping
 
 
 #AUTOMATION RESULT#
+
 file:///C:/Users/ibnu.aviandi/Katalon%20Studio/BelleandKate/Reports/20230517_235504/TERM%203%20-%20INPUT%20ADDRESS%20-%20WEB/20230517_235505/20230517_235505.html
 
