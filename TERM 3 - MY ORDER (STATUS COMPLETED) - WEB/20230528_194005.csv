@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TERM 3 - MY ORDER (COMPLETED) - WEB,Chrome 113.0.0.0,,,2023-05-28 19:40:07,2023-05-28 19:40:35,28.179s,PASSED
+,,,,,,,
+Test Cases/TERM 3 - MY ORDER (COMPLETE) - WEB,Chrome 113.0.0.0,,,2023-05-28 19:40:07,2023-05-28 19:40:35,27.989s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-28 19:40:08,2023-05-28 19:40:10,2.019s,PASSED
+"navigateToUrl(""https://staging-belleandkate.netlify.app/"")",Chrome 113.0.0.0,,,2023-05-28 19:40:10,2023-05-28 19:40:14,4.269s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-28 19:40:14,2023-05-28 19:40:14,0.204s,PASSED
+"click(findTestObject(""TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Icon_Login""))",Chrome 113.0.0.0,"Login
+",,2023-05-28 19:40:14,2023-05-28 19:40:15,0.609s,PASSED
+"setText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/input__css-11aywtz r-6taxm2""), ""ibnu.aviandi@yahoo.com"")",Chrome 113.0.0.0,Correct Email,,2023-05-28 19:40:15,2023-05-28 19:40:16,0.814s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/input__css-11aywtz r-6taxm2_1""), ""nG7mAKimZ+tKdK+1F9V+dw=="")",Chrome 113.0.0.0,Correct Password,,2023-05-28 19:40:16,2023-05-28 19:40:16,0.514s,PASSED
+"click(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Login""))",Chrome 113.0.0.0,,,2023-05-28 19:40:16,2023-05-28 19:40:17,0.508s,PASSED
+"click(findTestObject(""TERM 1 - FORGOT PASSWORD - WEB/Page_BELLE  KATE ROOM/Icon_Login""))",Chrome 113.0.0.0,,,2023-05-28 19:40:17,2023-05-28 19:40:18,1.489s,PASSED
+Url_MyOrder = getUrl(),Chrome 113.0.0.0,,,2023-05-28 19:40:18,2023-05-28 19:40:18,0.019s,PASSED
+"verifyMatch(Url_MyOrder, ""https://staging-belleandkate.netlify.app/account/orders"", false)",Chrome 113.0.0.0,"Assert the URL of My Order Page
+",,2023-05-28 19:40:18,2023-05-28 19:40:18,0.018s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_My OrderAll transactions""))",Chrome 113.0.0.0,Verify Menu My Order,,2023-05-28 19:40:18,2023-05-28 19:40:19,1.119s,PASSED
+"click(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Account DetailsAccount InformationMy Ad_716fd2""))",Chrome 113.0.0.0,Click one of the order,,2023-05-28 19:40:19,2023-05-28 19:40:20,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_All transactions""), STOP_ON_FAILURE)",Chrome 113.0.0.0,"Verify menu All Transaction is visible
+",,2023-05-28 19:40:20,2023-05-28 19:40:20,0.339s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/span_My Order""), ""My Order"")",Chrome 113.0.0.0,Assert the menu of My Order,,2023-05-28 19:40:20,2023-05-28 19:40:20,0.334s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/span_All transactions""), ""All transactions"")",Chrome 113.0.0.0,Assert the menu of All Transaction,,2023-05-28 19:40:20,2023-05-28 19:40:21,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_ChanelChanel 12Rp250,000,000CompletedOr_d2ae19""))",Chrome 113.0.0.0,Verify the 1st order is visible,,2023-05-28 19:40:21,2023-05-28 19:40:21,0.306s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/img""))",Chrome 113.0.0.0,Verify the image of item is visible,,2023-05-28 19:40:21,2023-05-28 19:40:21,0.337s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Completed""))",Chrome 113.0.0.0,Verify the status is visible,,2023-05-28 19:40:21,2023-05-28 19:40:22,0.340s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/span_Completed""), ""Completed"")",Chrome 113.0.0.0,Assert the Status - Completed,,2023-05-28 19:40:22,2023-05-28 19:40:22,0.302s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Ordered on 19052023""))",Chrome 113.0.0.0,Verify the Order Date is visible,,2023-05-28 19:40:22,2023-05-28 19:40:22,0.333s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/span_Ordered on 19052023""), ""Ordered on 19/05/2023"")",Chrome 113.0.0.0,Assert the Order Date,,2023-05-28 19:40:22,2023-05-28 19:40:23,0.315s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Chanel""))",Chrome 113.0.0.0,Verify the Brand is visible,,2023-05-28 19:40:23,2023-05-28 19:40:23,0.320s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Chanel 12""))",Chrome 113.0.0.0,Verify the Item is visible,,2023-05-28 19:40:23,2023-05-28 19:40:23,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Rp250,000,000""))",Chrome 113.0.0.0,Verify the price is visible,,2023-05-28 19:40:23,2023-05-28 19:40:23,0.311s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Order Details""))",Chrome 113.0.0.0,Verify the Order Details is visible,,2023-05-28 19:40:23,2023-05-28 19:40:24,0.314s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Order Details""))",Chrome 113.0.0.0,Verify the Order Details button is clickable,,2023-05-28 19:40:24,2023-05-28 19:40:24,0.307s,PASSED
+"click(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Order Details""))",Chrome 113.0.0.0,Click Order Details,,2023-05-28 19:40:24,2023-05-28 19:40:24,0.431s,PASSED
+"verifyElementVisible(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Order BNK839912002 was placed on May 19, 2023 and is currently being Completed""))",Chrome 113.0.0.0,Verify the Order Details is Visible,,2023-05-28 19:40:24,2023-05-28 19:40:25,0.761s,PASSED
+"Status = getText(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Order BNK839912002 was placed on May 19, 2023 and is currently being Completed""))",Chrome 113.0.0.0,Verify the Order Details is Visible,,2023-05-28 19:40:25,2023-05-28 19:40:26,0.369s,PASSED
+"Status.contains(""Completed"")",Chrome 113.0.0.0,Assert the Status - Completed is mentioned,,2023-05-28 19:40:26,2023-05-28 19:40:26,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Chanel - Chanel 12SKU BKR-CH01-130523-73960""))",Chrome 113.0.0.0,Verify the Brand - Item - SKU Number is visible,,2023-05-28 19:40:26,2023-05-28 19:40:26,0.422s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_SubtotalRp250,000,000""))",Chrome 113.0.0.0,Verify the Subtotal is visible,,2023-05-28 19:40:26,2023-05-28 19:40:26,0.335s,PASSED
+"Subtotal = getText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_SubtotalRp250,000,000""))",Chrome 113.0.0.0,Verify the Subtotal is visible,,2023-05-28 19:40:26,2023-05-28 19:40:27,0.300s,PASSED
+"Subtotal.contains(""Subtotal"")",Chrome 113.0.0.0,Assert the Subtotal text,,2023-05-28 19:40:27,2023-05-28 19:40:27,0.008s,PASSED
+"scrollToElement(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_SubtotalRp250,000,000""), 3)",Chrome 113.0.0.0,,,2023-05-28 19:40:27,2023-05-28 19:40:27,0.602s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Same-Day - BELLE AND KATE Jakarta Selat_df3919""))",Chrome 113.0.0.0,Verify the Shipping Method is visible,,2023-05-28 19:40:27,2023-05-28 19:40:28,0.554s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Payment methodDirect bank transfer""))",Chrome 113.0.0.0,Verify the Payment Method is visible,,2023-05-28 19:40:28,2023-05-28 19:40:28,0.444s,PASSED
+"PaymentMethod = getText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Payment methodDirect bank transfer""))",Chrome 113.0.0.0,Verify the Payment Method is visible,,2023-05-28 19:40:28,2023-05-28 19:40:29,0.532s,PASSED
+"PaymentMethod.contains(""Payment method"")",Chrome 113.0.0.0,Assert the Payment Method Text,,2023-05-28 19:40:29,2023-05-28 19:40:29,0.008s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_TotalRp250,100,000""))",Chrome 113.0.0.0,Verify the Total Price is visible,,2023-05-28 19:40:29,2023-05-28 19:40:29,0.519s,PASSED
+"Total = getText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_TotalRp250,100,000""))",Chrome 113.0.0.0,Verify the Total Price is visible,,2023-05-28 19:40:29,2023-05-28 19:40:30,0.341s,PASSED
+"Total.contains(""Total"")",Chrome 113.0.0.0,Asser the Total text,,2023-05-28 19:40:30,2023-05-28 19:40:30,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Shipping Address""))",Chrome 113.0.0.0,Verify the Shipping Address is visible,,2023-05-28 19:40:30,2023-05-28 19:40:30,0.436s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/span_Shipping Address""), ""Shipping Address"")",Chrome 113.0.0.0,Assert the Shipping Address,,2023-05-28 19:40:30,2023-05-28 19:40:30,0.319s,PASSED
+"verifyElementVisible(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Shipping AddressIbnu AviandiPermata Pur_cd3a77""))",Chrome 113.0.0.0,Verify the Address Details are visible,,2023-05-28 19:40:30,2023-05-28 19:40:31,0.345s,PASSED
+"Name = getText(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Shipping AddressIbnu AviandiPermata Pur_cd3a77""))",Chrome 113.0.0.0,Verify the Address Details are visible,,2023-05-28 19:40:31,2023-05-28 19:40:31,0.370s,PASSED
+"Name.contains(""Ibnu Aviandi"")",Chrome 113.0.0.0,Assert the name of reciever is correct,,2023-05-28 19:40:31,2023-05-28 19:40:31,0.000s,PASSED
+"Address = getText(findTestObject(""TERM 3 - MY ORDER - WEB - Automation/Page_BELLE  KATE ROOM/div_Shipping AddressIbnu AviandiPermata Pur_cd3a77""))",Chrome 113.0.0.0,Verify the Address Details are visible,,2023-05-28 19:40:31,2023-05-28 19:40:32,0.346s,PASSED
+"Address.contains(""Permata Puri 1 Block C.10 No. 6"")",Chrome 113.0.0.0,Assert the Address is correct ,,2023-05-28 19:40:32,2023-05-28 19:40:32,0.001s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-28 19:40:32,2023-05-28 19:40:35,3.025s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-28 19:40:35,2023-05-28 19:40:35,0.748s,PASSED
